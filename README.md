@@ -11,7 +11,7 @@ O cargo atendente não tem acesso a opção de cadastro de livro e informção d
 
 As funções dos cargos são:
 
-1 - Castrar livros
+1 - Cadastrar livros
 
 2 - Pesquisar livros por código
 
