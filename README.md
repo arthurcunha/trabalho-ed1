@@ -4,21 +4,32 @@ Este programa foi desenvolvido em linguagem Java com a IDE Eclipse.
 Para executa-lo deve-se exportar todo o projeto para alguma IDE de Java e rodar a classe TestaLivraria.
 Este software foi feito como projeto final na matéria estrutura de dados 1 do IFSP.
 
-O programa é sobre uma Livraria onde o usuário entra no sistema dependendo do seu cargo e executa determina função.
-Caso o usuário entre como Gerente o sistema pedirá uma senha numérica (123), caso entre como Caixa também pedirá uma senha (456) e caso entre como Atendente pode entrar livremente.
-Após entrar como algum cargo o sistema mostrará seu nome, cpf, salário atual e as funções de cadastro e procura de livros.
-O cargo atendente não tem acesso a opção de cadastro de livro e informção da livraria.
+O programa é sobre um sistema de Livraria.
+O sistema é composto por dois menus, sendo o primeiro de seleção de cargos
+onde o usuário escolhe entre as opções:
 
-As funções dos cargos são:
+1 – Gerente (necessita de uma senha numérica [123])
 
-1 - Cadastrar livros
+2 – Caixa (necessita de uma senha numérica [456])
 
-2 - Pesquisar livros por código
+3 – Atendente
 
-3 - Pesquisar livros por título
+3 – Sair
 
-4 - Listar todos os livros cadastrados
+Após a escolha de cargo o sistema mostrará outro menu informando seu nome,
+cpf, salário atual e as funções de:
 
-5 - Informações da livraria
+1 – Cadastrar livros
 
-6 - Voltar para o menu de seleção de cargos
+2 – Pesquisar livros por código
+
+3 – Pesquisar livros por título
+
+4 – Listar livros (mostra todos os livros cadastrados)
+
+5 – Informações (mostra as informações da livraria)
+
+6 – Sair (Volta para o menu de cargos)
+
+O cargo atendente não tem acesso a opção de cadastro de livro e informação da
+livraria.
